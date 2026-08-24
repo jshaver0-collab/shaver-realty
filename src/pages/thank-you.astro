@@ -1,0 +1,81 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout 
+  title="Thank You | Shaver Realty Group"
+  description="Thank you for requesting your free home valuation. I’ll be in touch within 24 hours."
+>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Thank You</h1>
+      <p class="lead">
+        I’ve received your request for a free home valuation.
+      </p>
+    </div>
+  </section>
+
+  <section class="value-section">
+    <div class="container" style="max-width: 700px; text-align: center;">
+      <p style="font-size: 1.2rem; line-height: 1.7; margin-bottom: 2rem;">
+        I’ll personally review your information and call you within <strong>24 hours</strong> 
+        to discuss your home and provide an accurate valuation.
+      </p>
+
+      <p style="font-size: 1.15rem; color: #555; margin-bottom: 2.5rem;">
+        In the meantime, feel free to explore more about how I help homeowners sell 
+        with transparent pricing and professional marketing.
+      </p>
+
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="/pricing" class="btn btn-dark">View Listing Plans</a>
+        <a href="/" class="btn" style="border: 1px solid #111; padding: 0.9rem 1.8rem; border-radius: 8px; font-weight: 600;">
+          Back to Home
+        </a>
+      </div>
+
+      <p style="margin-top: 3rem; font-size: 1.05rem;">
+        Prefer to talk sooner?<br />
+        Call or text me directly at <strong><a href="tel:2147172888">(214) 717-2888</a></strong>
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: #f8f8f8;
+    padding: 5rem 0 4rem;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .lead {
+    font-size: 1.3rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .value-section {
+    padding: 4rem 0 5rem;
+  }
+
+  .btn-dark {
+    background: #111;
+    color: white;
+    padding: 0.9rem 1.8rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .btn-dark:hover {
+    background: #333;
+  }
+</style>

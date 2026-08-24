@@ -25,7 +25,6 @@ The park features open lawn areas, mature trees, and a relaxed residential feel.
 
 ## Photos from the Park
 
-## Photos from the Park
 
 ![Lakeview Estates Neighborhood Park in Grapevine](/lakeview-park-1.jpg)
 
