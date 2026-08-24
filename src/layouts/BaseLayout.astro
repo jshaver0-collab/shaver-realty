@@ -1,0 +1,424 @@
+---
+const { 
+  title = "Shaver Realty Group | Sell Your House in Grapevine & DFW",
+  description = "Looking to sell your house in Grapevine, Colleyville, Southlake or Flower Mound? Shaver Realty Group offers transparent full-service listing plans starting at 2% with professional marketing and personal attention."
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, "https://shaverrealtygroup.com");
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "@id": "https://shaverrealtygroup.com/#RealEstateAgent",
+  "name": "Shaver Realty Group",
+  "image": "https://shaverrealtygroup.com/logo.png",
+  "url": "https://shaverrealtygroup.com/",
+  "telephone": "+1-214-717-2888",
+  "email": "john@shaverrealtygroup.com",
+  "description": "Shaver Realty Group helps homeowners sell their homes in Grapevine, Colleyville, Southlake and Flower Mound with transparent pricing, professional marketing, and personal attention.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Grapevine",
+    "addressRegion": "TX",
+    "postalCode": "76051",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 32.9342,
+    "longitude": -97.0781
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Grapevine" },
+    { "@type": "City", "name": "Colleyville" },
+    { "@type": "City", "name": "Southlake" },
+    { "@type": "City", "name": "Flower Mound" }
+  ],
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Regal Realtors"
+  },
+  "sameAs": [
+    "https://www.google.com/maps?cid=15250836485861086569",
+    "https://www.facebook.com/profile.php?id=61559560264010",
+    "https://www.instagram.com/jshaver0/",
+    "https://www.linkedin.com/in/shaverjohn/",
+    "https://x.com/Shavergroup",
+    "https://www.zillow.com/profile/ShaverRealtyGroup"
+  ]
+};
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="https://shaverrealtygroup.com/logo.png" />
+    <meta property="og:site_name" content="Shaver Realty Group" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="https://shaverrealtygroup.com/logo.png" />
+
+    <!-- Geo -->
+    <meta name="geo.region" content="US-TX" />
+    <meta name="geo.placename" content="Grapevine" />
+    <meta name="geo.position" content="32.9342;-97.0781" />
+    <meta name="ICBM" content="32.9342, -97.0781" />
+
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="1ui47Cay7xD0LmR-GAs4AZ9A1-EZyjU_s3Q0DkfsKu8" />
+    <meta name="google-site-verification" content="dzpfNKevRZNudn7k665eQFv1wbPlUcokZnNxpywq7qQ" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VVRFC10FF"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4VVRFC10FF');
+    </script>
+
+    <!-- Meta Pixel -->
+    <script is:inline>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '8845209418922274');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+           src="https://www.facebook.com/tr?id=8845209418922274&ev=PageView&noscript=1" />
+    </noscript>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="logo">
+          <img src="/logo.png" alt="Shaver Realty Group - Grapevine Listing Specialist" class="logo-img" />
+        </a>
+        <nav>
+  <a href="/">Home</a>
+  <a href="/evaluation">Home Evaluation</a>
+  <a href="/sell-your-home">Sell Your Home</a>
+  <a href="/pricing">Listing Plans</a>
+
+  <div class="nav-dropdown">
+    <button class="nav-dropdown-toggle">
+      Areas We Serve
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style="margin-left: 4px;">
+        <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div class="nav-dropdown-menu">
+      <a href="/grapevine">Grapevine</a>
+      <a href="/flower-mound">Flower Mound</a>
+      <a href="/colleyville">Colleyville</a>
+      <a href="/southlake">Southlake</a>
+    </div>
+  </div>
+
+  <a href="/about">About</a>
+  <a href="/testimonials">Testimonials</a>
+</nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <strong>Shaver Realty Group</strong>
+          </div>
+
+          <div class="footer-broker">
+            <span class="broker-label">Brokered by</span>
+            <img src="/regal-logo.png" alt="Brokered by Regal Realtors" class="broker-logo" />
+          </div>
+
+          <div class="footer-contact">
+            <a href="tel:2147172888">(214) 717-2888</a><br />
+            <a href="mailto:john@shaverrealtygroup.com">john@shaverrealtygroup.com</a>
+          </div>
+        </div>
+
+        <p class="footer-areas">
+  Serving&nbsp;
+  <a href="/grapevine">Grapevine</a>&nbsp;•&nbsp;
+  <a href="/flower-mound">Flower Mound</a>&nbsp;•&nbsp;
+  <a href="/colleyville">Colleyville</a>&nbsp;•&nbsp;
+  <a href="/southlake">Southlake</a>&nbsp;
+  &amp; surrounding DFW communities
+  <br />
+  <a href="/sell-your-home">Sell Your Home</a>&nbsp;·&nbsp;
+  <a href="/evaluation">Free Home Evaluation</a>
+</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --primary: #111111;
+    --accent: #1a1a1a;
+    --text: #1a1a1a;
+    --muted: #555555;
+    --light: #f8f8f8;
+    --border: #e5e5e5;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+/* Prevent purple visited links */
+a:visited {
+  color: inherit;
+}
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+    background: #ffffff;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Lora', Georgia, serif;
+  }
+
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* Dropdown */
+  .nav-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 2rem;
+  }
+
+  .nav-dropdown-toggle {
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 0.95rem;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    transition: color 0.2s;
+  }
+
+  .nav-dropdown-toggle:hover,
+  .nav-dropdown:hover .nav-dropdown-toggle {
+    color: var(--primary);
+  }
+
+  .nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+    min-width: 180px;
+    padding: 0.5rem 0;
+    z-index: 100;
+  }
+
+  .nav-dropdown::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 12px;
+  }
+
+  .nav-dropdown:hover .nav-dropdown-menu {
+    display: block;
+  }
+
+  .nav-dropdown-menu a {
+    display: block;
+    padding: 0.6rem 1.25rem;
+    margin: 0;
+    color: #333;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .nav-dropdown-menu a:hover {
+    background: #f8f8f8;
+    color: #111;
+  }
+
+  /* Header */
+  .site-header {
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;         
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .logo-img {
+    height: 96px;          
+    width: auto;
+    display: block;
+  }
+
+  nav a {
+    margin-left: 2rem;
+    color: var(--muted);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+  }
+
+  nav a:hover {
+    color: var(--primary);
+  }
+
+  /* Footer */
+  .site-footer {
+    background: var(--light);
+    padding: 3.5rem 0 2.5rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .footer-brand strong {
+    font-size: 1.15rem;
+    color: #111;
+  }
+
+  .footer-broker {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .broker-label {
+    font-size: 0.8rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .broker-logo {
+    height: 52px;          
+    width: auto;
+  }
+
+  .footer-contact a {
+    color: #111;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+
+  .footer-areas {
+    color: #555;
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 700px) {
+    .header-inner {
+      height: 90px;
+    }
+    .logo-img {
+      height: 70px;
+    }
+    nav a {
+      margin-left: 1.1rem;
+      font-size: 0.9rem;
+    }
+    .broker-logo {
+      height: 38px;
+    }
+    .nav-dropdown {
+      margin-left: 1.1rem;
+    }
+    .nav-dropdown-menu {
+      left: 0;
+      transform: none;
+    }
+  }
+</style>

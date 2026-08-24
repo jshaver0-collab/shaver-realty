@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shaverrealtygroup.com/sitemap-index.xml

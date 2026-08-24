@@ -1,0 +1,337 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout 
+  title="Sell Your Home in Grapevine & DFW | Transparent Listing Plans Starting at 2%"
+  description="Ready to sell your home in Grapevine, Flower Mound, Colleyville or Southlake? Shaver Realty Group offers professional full-service listing plans starting at 2% with clear communication and strong local expertise."
+>
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://shaverrealtygroup.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sell Your Home",
+      "item": "https://shaverrealtygroup.com/sell-your-home"
+    }
+  ]
+})} />
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Sell Your Home with Confidence</h1>
+      <p class="hero-sub">
+        Professional marketing, transparent pricing starting at 2%, and dedicated personal service for homeowners in Grapevine and the surrounding DFW communities.
+      </p>
+      <div class="hero-buttons">
+        <a href="/evaluation" class="btn btn-primary">Get Your Free Home Valuation</a>
+        <a href="/pricing" class="btn btn-secondary">View Listing Plans</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Value Section -->
+  <section class="value-section">
+    <div class="container">
+      <h2>How We Help You Sell Your Home</h2>
+      <div class="value-grid">
+        <div class="value-card">
+          <h3>Professional Marketing</h3>
+          <p>High-quality photography, strategic pricing, digital advertising, and broad MLS exposure designed to attract serious buyers.</p>
+        </div>
+        <div class="value-card">
+          <h3>Transparent Pricing</h3>
+          <p>Full-service listing plans starting at just 2%. Clear communication and no hidden fees from start to finish.</p>
+        </div>
+        <div class="value-card">
+          <h3>Personal Attention</h3>
+          <p>You work directly with me. Every client receives dedicated, responsive service throughout the entire selling process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Areas We Serve -->
+  <section class="pricing-highlight">
+    <div class="container">
+      <h2>Areas We Serve</h2>
+      <p class="pricing-text">
+        We specialize in helping homeowners sell their homes in the following communities:
+      </p>
+      <div class="areas-links">
+        <a href="/grapevine">Grapevine</a>
+        <a href="/flower-mound">Flower Mound</a>
+        <a href="/colleyville">Colleyville</a>
+        <a href="/southlake">Southlake</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="value-section">
+    <div class="container">
+      <h2>Why Homeowners Choose Shaver Realty Group</h2>
+      <div class="value-grid">
+        <div class="value-card">
+          <h3>Local Expertise</h3>
+          <p>Deep knowledge of the Grapevine, Flower Mound, Colleyville, and Southlake markets helps us price and position your home effectively.</p>
+        </div>
+        <div class="value-card">
+          <h3>Full-Service Support</h3>
+          <p>From professional photos and marketing to negotiations and closing, you receive complete support every step of the way.</p>
+        </div>
+        <div class="value-card">
+          <h3>Clear Communication</h3>
+          <p>You’ll always know what’s happening with your listing. No surprises, just honest guidance and regular updates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cash Offer Section -->
+  <section class="cash-section">
+    <div class="container">
+      <h2>Need to Sell Your Home Quickly?</h2>
+      <p>
+        If timing is important, we can also help you explore cash offers through our network of investors and cash buyers. 
+        This can be a good option when you want speed and certainty.
+      </p>
+      <a href="/evaluation" class="btn btn-dark">Request a Cash Offer</a>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <h2>Ready to Sell Your Home?</h2>
+      <p>Get a free, no-obligation home valuation and see how we can help you sell with confidence and transparency.</p>
+      <a href="/evaluation" class="btn btn-dark">Get Your Free Home Valuation</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background-image: url('/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.72) 100%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 5rem 0;
+  }
+
+  .hero h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.15;
+    margin: 0 auto 1.25rem;
+  }
+
+  .hero-sub {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.65;
+    opacity: 0.95;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .btn-primary {
+    background: white;
+    color: #111;
+  }
+
+  .btn-primary:hover {
+    background: #f0f0f0;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255,255,255,0.75);
+  }
+
+  .btn-secondary:hover {
+    border-color: white;
+    background: rgba(255,255,255,0.1);
+  }
+
+  .btn-dark {
+    background: #111;
+    color: white;
+  }
+
+  .btn-dark:hover {
+    background: #333;
+  }
+
+  .value-section {
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .value-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    color: #111;
+  }
+
+  .value-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    text-align: left;
+  }
+
+  .value-card {
+    background: #f8f8f8;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+
+  .value-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.8rem;
+    color: #111;
+  }
+
+  .value-card p {
+    font-size: 1.1rem;
+    line-height: 1.65;
+    color: #444;
+  }
+
+  .pricing-highlight {
+    background: #f8f8f8;
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .pricing-highlight h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+  }
+
+  .pricing-text {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+    color: #333;
+  }
+
+  .areas-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .areas-links a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+
+  .areas-links a:hover {
+    background: #333;
+  }
+
+  .cash-section {
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .cash-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+  }
+
+  .cash-section p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    max-width: 750px;
+    margin: 0 auto 2rem;
+    color: #333;
+  }
+
+  .final-cta {
+    padding: 5rem 0;
+    text-align: center;
+    background: #f8f8f8;
+  }
+
+  .final-cta h2 {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+
+  .final-cta p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 700px) {
+    .hero h1 {
+      font-size: 2.3rem;
+    }
+    .hero-sub {
+      font-size: 1.15rem;
+    }
+  }
+</style>

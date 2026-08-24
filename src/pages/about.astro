@@ -1,0 +1,213 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout 
+  title="About John Shaver | Grapevine Listing Agent | Shaver Realty Group"
+  description="Meet John Shaver, a dedicated Grapevine listing agent helping homeowners sell their homes in Grapevine, Flower Mound, Colleyville and Southlake with transparent pricing and personal service."
+>
+  <section class="page-hero">
+    <div class="container">
+      <h1>About Shaver Realty Group</h1>
+      <p class="lead">
+        A different kind of listing experience — clear, personal, and focused on results.
+      </p>
+    </div>
+  </section>
+
+  <section class="about-content">
+    <div class="container">
+      <div class="intro">
+        <h2>Hi, I’m John Shaver</h2>
+        <p>
+          I’m a Grapevine listing agent who helps homeowners in Grapevine, Flower Mound, Colleyville, Southlake and the surrounding areas sell their homes with clarity and confidence.
+        </p>
+        <p>
+          After years in real estate, I built Shaver Realty Group around a simple idea:  
+          sellers deserve transparent pricing, direct communication, and a process that doesn’t feel stressful or confusing.
+        </p>
+      </div>
+
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>Transparent Pricing</h3>
+          <p>Starting at 2% with no hidden fees. You always know exactly what you’re paying for and what you’re getting.</p>
+        </div>
+        <div class="value-card">
+          <h3>High-Touch Service</h3>
+          <p>You work directly with me — not a rotating team or call center. Clear updates and honest guidance every step of the way.</p>
+        </div>
+        <div class="value-card">
+          <h3>Local Focus</h3>
+          <p>Deep knowledge of Grapevine, Flower Mound and the nearby communities. Strategy built for this specific market, not a generic approach.</p>
+        </div>
+      </div>
+
+      <div class="approach">
+        <h2>My Approach</h2>
+        <p>
+          Selling a home is one of the biggest financial decisions most people make.  
+          My job is to make that process as straightforward and low-stress as possible while still delivering strong results.
+        </p>
+        <p>
+          That means honest pricing advice, professional marketing, careful preparation, and clear communication from the first conversation through closing — whether you’re looking to sell your house in Grapevine or one of the surrounding communities.
+        </p>
+      </div>
+
+      <div class="cta-box">
+        <h3>Ready to talk about selling your home?</h3>
+        <p>Request a free home valuation or just reach out — I’m happy to answer questions with no pressure.</p>
+        <div class="cta-buttons">
+          <a href="/evaluation" class="btn btn-dark">Request Free Evaluation</a>
+          <a href="tel:2147172888" class="btn">(214) 717-2888</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    background: #f8f8f8;
+    padding: 4.5rem 0 3.5rem;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .page-hero h1 {
+    font-size: 2.5rem;
+    color: #111;
+    margin-bottom: 1rem;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .about-content {
+    padding: 5rem 0 6rem;
+  }
+
+  .intro {
+    max-width: 700px;
+    margin: 0 auto 4rem;
+    text-align: center;
+  }
+
+  .intro h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1.25rem;
+    color: #111;
+  }
+
+  .intro p {
+    color: #444;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.1rem;
+  }
+
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.75rem;
+    margin-bottom: 4.5rem;
+  }
+
+  .value-card {
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 1.9rem;
+  }
+
+  .value-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.7rem;
+    color: #111;
+  }
+
+  .value-card p {
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .approach {
+    max-width: 700px;
+    margin: 0 auto 4.5rem;
+  }
+
+  .approach h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+    color: #111;
+  }
+
+  .approach p {
+    color: #444;
+    font-size: 1.08rem;
+    line-height: 1.7;
+    margin-bottom: 1.1rem;
+  }
+
+  .cta-box {
+    background: #f8f8f8;
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .cta-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+    color: #111;
+  }
+
+  .cta-box p {
+    color: #555;
+    margin-bottom: 1.75rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px solid #111;
+    color: #111;
+    transition: all 0.2s;
+  }
+
+  .btn:hover {
+    background: #111;
+    color: white;
+  }
+
+  .btn-dark {
+    background: #111;
+    color: white;
+  }
+
+  .btn-dark:hover {
+    background: #333;
+  }
+
+  @media (max-width: 600px) {
+    .page-hero h1 {
+      font-size: 2rem;
+    }
+  }
+</style>

@@ -1,0 +1,325 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout 
+  title="Sell My House in Flower Mound TX | Listing Agent | Shaver Realty Group"
+  description="Want to sell your house in Flower Mound? Work with a dedicated local listing agent. Transparent plans starting at 2%, professional marketing, and a free home valuation."
+>
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://shaverrealtygroup.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sell Your Home",
+      "item": "https://shaverrealtygroup.com/sell-your-home"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Flower Mound",
+      "item": "https://shaverrealtygroup.com/flower-mound"
+    }
+  ]
+})} />
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Sell Your House in Flower Mound, TX</h1>
+      <p class="hero-sub">
+        Looking for a trusted Flower Mound listing agent? Get a free, no-obligation home valuation and see how we can help you sell your house with confidence and transparency.
+      </p>
+      <div class="hero-buttons">
+        <a href="/evaluation" class="btn btn-primary">Get Your Free Home Valuation</a>
+        <a href="/pricing" class="btn btn-secondary">View Listing Plans</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What You Get -->
+  <section class="value-section">
+    <div class="container">
+      <h2>What You Get When You Sell Your House in Flower Mound</h2>
+      <div class="value-grid">
+        <div class="value-card">
+          <h3>Professional Marketing</h3>
+          <p>High-quality photography, strategic pricing, and targeted marketing designed for Flower Mound buyers.</p>
+        </div>
+        <div class="value-card">
+          <h3>Transparent Pricing</h3>
+          <p>Clear communication and no hidden fees from start to finish.</p>
+        </div>
+        <div class="value-card">
+          <h3>Personal Attention</h3>
+          <p>You work directly with me — your dedicated Flower Mound listing agent — for responsive, high-level service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transparent Plans Highlight -->
+  <section class="pricing-highlight">
+    <div class="container">
+      <h2>Transparent Full-Service Listing Plans</h2>
+      <p class="pricing-text">
+        My commission starts at just 2%. This includes professional marketing, photography, open houses, and dedicated support — everything you need to sell your house in Flower Mound with clear, upfront pricing and no hidden fees.
+      </p>
+      <a href="/pricing" class="btn btn-dark">View Listing Plans</a>
+    </div>
+  </section>
+
+  <!-- Cash Offers -->
+  <section class="cash-section">
+    <div class="container">
+      <h2>Need to Sell Your Home Fast in Flower Mound?</h2>
+      <p>
+        If timing is important, we can help you explore cash offers through our network of investors and cash buyers.
+        We can often bring you multiple competitive offers when you need to sell your house quickly.
+      </p>
+      <a href="/evaluation" class="btn btn-dark">Request a Cash Offer</a>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="value-section">
+    <div class="container">
+      <h2>What Clients Are Saying</h2>
+      <div class="value-grid">
+        <div class="value-card">
+          <div class="stars">★★★★★</div>
+          <p>“John made the entire selling process smooth and stress-free. We sold our home in Grapevine faster than expected and for a great price.”</p>
+          <p class="reviewer">— Sarah M., Grapevine</p>
+        </div>
+        <div class="value-card">
+          <div class="stars">★★★★★</div>
+          <p>“John was very professional and made the whole process easy. He knew the Grapevine market well and helped us get our home sold quickly with no stress.”</p>
+          <p class="reviewer">— Amanda L., Grapevine</p>
+        </div>
+        <div class="value-card">
+          <div class="stars">★★★★★</div>
+          <p>“We appreciated how honest and straightforward John was. He gave us realistic expectations and helped us sell our home in Flower Mound without any surprises.”</p>
+          <p class="reviewer">— Brian & Karen W., Flower Mound</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <h2>Ready to Sell Your House in Flower Mound?</h2>
+      <p style="margin-bottom: 1.75rem; font-size: 1.15rem; color: #555;">
+        Get a free home valuation and find out what your Flower Mound home is worth today.
+      </p>
+      <a href="/evaluation" class="btn btn-dark">Get Your Free Flower Mound Home Valuation</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* Same styles as Grapevine page */
+  .hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background-image: url('/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.72) 100%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 5rem 0;
+  }
+
+  .hero h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.15;
+    margin: 0 auto 1.25rem;
+    letter-spacing: -0.02em;
+  }
+
+  .hero-sub {
+    font-size: 1.3rem;
+    max-width: 680px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.65;
+    opacity: 0.95;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .btn-primary {
+    background: white;
+    color: #111;
+  }
+
+  .btn-primary:hover {
+    background: #f0f0f0;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255,255,255,0.75);
+  }
+
+  .btn-secondary:hover {
+    border-color: white;
+    background: rgba(255,255,255,0.1);
+  }
+
+  .btn-dark {
+    background: #111;
+    color: white;
+  }
+
+  .btn-dark:hover {
+    background: #333;
+  }
+
+  .value-section {
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .value-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    color: #111;
+  }
+
+  .value-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    text-align: left;
+  }
+
+  .value-card {
+    background: #f8f8f8;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+
+  .value-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.8rem;
+    color: #111;
+  }
+
+  .value-card p {
+    font-size: 1.1rem;
+    line-height: 1.65;
+    color: #444;
+  }
+
+  .stars {
+    color: #fbbc04;
+    font-size: 1.25rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .reviewer {
+    font-weight: 600;
+    margin-top: 1.25rem;
+    color: #111;
+  }
+
+  .pricing-highlight {
+    background: #f8f8f8;
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .pricing-highlight h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+  }
+
+  .pricing-text {
+    font-size: 1.25rem;
+    max-width: 750px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+    color: #333;
+  }
+
+  .cash-section {
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .cash-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+  }
+
+  .cash-section p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    max-width: 780px;
+    margin: 0 auto 2rem;
+    color: #333;
+  }
+
+  .final-cta {
+    padding: 5rem 0;
+    text-align: center;
+    background: #f8f8f8;
+  }
+
+  .final-cta h2 {
+    font-size: 2.1rem;
+    margin-bottom: 1.75rem;
+    color: #111;
+  }
+
+  @media (max-width: 700px) {
+    .hero h1 {
+      font-size: 2.3rem;
+    }
+    .hero-sub {
+      font-size: 1.15rem;
+    }
+  }
+</style>

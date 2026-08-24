@@ -1,17 +1,393 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout 
+  title="Shaver Realty Group | Listing Agent in Grapevine & Flower Mound TX"
+  description="Looking for a trusted listing agent in Grapevine or Flower Mound? Shaver Realty Group helps homeowners sell their house with transparent pricing starting at 2%, professional marketing, and personal service."
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      
+      <h1>Shaver Realty Group</h1>
+      
+      <h2 class="hero-sub">Your Grapevine Listing Agent</h2>
+      
+      <p class="subtitle">
+        We help homeowners sell their house in 
+        Grapevine and the nearby communities of Colleyville, Southlake, and Flower Mound.<br /><br />
+        Professional marketing, clear communication, and expert negotiation — with transparent pricing starting at 2%.
+      </p>
+      We help homeowners sell their homes in <a href="/grapevine">Grapevine</a>, <a href="/flower-mound">Flower Mound</a>, <a href="/colleyville">Colleyville</a>, and <a href="/southlake">Southlake</a>.
+
+      <div class="hero-buttons">
+        <a href="/evaluation" class="btn btn-primary">Get Your Free Home Valuation</a>
+        <a href="/pricing" class="btn btn-secondary">View Listing Plans</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premium Service. Clear Value. -->
+  <section class="value-section">
+    <div class="container">
+      <h2>Premium Service. Clear Value.</h2>
+      <div class="value-grid">
+        <div class="value-card">
+          <h3>Full-Service Marketing</h3>
+          <p>Professional photography, strategic pricing, digital marketing, and scheduled open houses — all included when you sell your home with us.</p>
+        </div>
+        <div class="value-card">
+          <h3>Transparent Pricing</h3>
+          <p>Clear communication from start to finish. No hidden fees. No surprises at closing.</p>
+        </div>
+        <div class="value-card">
+          <h3>Personal Attention</h3>
+          <p>You work directly with me — your dedicated local listing agent. Every client receives high-level service and responsiveness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transparent Pricing Highlight -->
+  <section class="pricing-highlight">
+    <div class="container">
+      <h2>Transparent Listing Plans Starting at 2%</h2>
+      <p class="pricing-text">
+        My commission starts at just 2%. This includes professional marketing, photography, open houses, and dedicated support — everything you need to sell your house in Grapevine or Flower Mound with clear, upfront pricing.
+      </p>
+      <a href="/pricing" class="btn btn-dark">View Full Listing Plans</a>
+    </div>
+  </section>
+
+  <!-- A Different Approach -->
+  <section class="different-approach">
+    <div class="container">
+      <h2>A Different Approach to Real Estate</h2>
+      <p>
+        Many large teams carry significant overhead from paid lead sources, referral fees, and supporting multiple agents. These costs often get passed on to homeowners.
+      </p>
+      <p>
+        At Shaver Realty Group, we operate with lower overhead while delivering professional marketing, expert negotiation, and dedicated personal service. This allows us to offer transparent pricing while maintaining a high level of care and results for every client.
+      </p>
+    </div>
+  </section>
+
+  <!-- How Selling Works -->
+  <section class="process-section">
+    <div class="container">
+      <h2>How Selling Your Home Works</h2>
+      <div class="process-grid">
+        <div class="process-step">
+          <h3>1. Free Home Valuation</h3>
+          <p>Receive a realistic, data-driven valuation based on current market conditions in Grapevine and surrounding areas. Find out what your home is worth today.</p>
+        </div>
+        <div class="process-step">
+          <h3>2. Custom Marketing Plan</h3>
+          <p>We create a tailored strategy including professional photography, staging guidance, and targeted marketing.</p>
+        </div>
+        <div class="process-step">
+          <h3>3. Full-Service Execution</h3>
+          <p>From listing to open houses and negotiations, you receive hands-on support and clear communication every step of the way.</p>
+        </div>
+        <div class="process-step">
+          <h3>4. Close With Confidence</h3>
+          <p>We handle the details so you can focus on your next move — with full transparency throughout the process.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cash Offers Section -->
+  <section class="cash-section">
+    <div class="container">
+      <h2>Need to Sell Your Home Fast?</h2>
+      <p>
+        If you need to sell your house quickly and want to avoid repairs, staging, and showings, we can help you explore cash offers. Through our network of investors and cash buyers, we can often bring you multiple competitive offers to consider.
+      </p>
+      <div class="benefits">
+        <h3>Potential Benefits:</h3>
+        <ul>
+          <li>No need to make repairs or updates to the home</li>
+          <li>No showings or open houses required</li>
+          <li>Faster closing timeline</li>
+          <li>More certainty with fewer contingencies</li>
+        </ul>
+      </div>
+      <a href="/evaluation" class="btn btn-dark">Request a Cash Offer</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background-image: url('/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.72) 100%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 6rem 0;
+  }
+
+  .eyebrow {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 1.4rem;
+    opacity: 0.95;
+  }
+
+  .hero h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.15;
+    margin: 0 auto 0.6rem;
+    letter-spacing: -0.02em;
+  }
+
+  .hero-sub {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 0 auto 2rem;
+    opacity: 0.95;
+    letter-spacing: -0.01em;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    max-width: 720px;
+    margin: 0 auto 2.75rem;
+    line-height: 1.65;
+    opacity: 0.95;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .btn-primary {
+    background: white;
+    color: #111;
+  }
+
+  .btn-primary:hover {
+    background: #f0f0f0;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255,255,255,0.75);
+  }
+
+  .btn-secondary:hover {
+    border-color: white;
+    background: rgba(255,255,255,0.1);
+  }
+
+  .btn-dark {
+    background: #111;
+    color: white;
+  }
+
+  .btn-dark:hover {
+    background: #333;
+  }
+
+  /* Value Section */
+  .value-section {
+    padding: 5.5rem 0;
+    text-align: center;
+  }
+
+  .value-section h2 {
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+    color: #111;
+  }
+
+  .value-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    text-align: left;
+  }
+
+  .value-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.9rem;
+    color: #111;
+  }
+
+  .value-card p {
+    font-size: 1.1rem;
+    line-height: 1.65;
+    color: #444;
+  }
+
+  /* Pricing Highlight */
+  .pricing-highlight {
+    background: #f8f8f8;
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .pricing-highlight h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+  }
+
+  .pricing-text {
+    font-size: 1.25rem;
+    max-width: 750px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+    color: #333;
+  }
+
+  /* Different Approach */
+  .different-approach {
+    padding: 5.5rem 0;
+    text-align: center;
+  }
+
+  .different-approach h2 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+    color: #111;
+  }
+
+  .different-approach p {
+    font-size: 1.2rem;
+    line-height: 1.75;
+    max-width: 800px;
+    margin: 0 auto 1.4rem;
+    color: #333;
+  }
+
+  /* Process */
+  .process-section {
+    background: #f8f8f8;
+    padding: 5.5rem 0;
+  }
+
+  .process-section h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 3.5rem;
+    color: #111;
+  }
+
+  .process-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2.5rem;
+  }
+
+  .process-step h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: #111;
+  }
+
+  .process-step p {
+    font-size: 1.1rem;
+    line-height: 1.65;
+    color: #444;
+  }
+
+  /* Cash Section */
+  .cash-section {
+    padding: 5.5rem 0;
+    text-align: center;
+  }
+
+  .cash-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+  }
+
+  .cash-section > .container > p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    max-width: 780px;
+    margin: 0 auto 2rem;
+    color: #333;
+  }
+
+  .benefits {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+  }
+
+  .benefits h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .benefits li {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #333;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+
+  .benefits li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #111;
+    font-weight: bold;
+  }
+
+  @media (max-width: 700px) {
+    .hero h1 {
+      font-size: 2.4rem;
+    }
+    .hero-sub {
+      font-size: 1.35rem;
+    }
+  }
+</style>
