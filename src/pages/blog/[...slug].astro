@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map(post => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout 
+  title={`${post.data.title} | Shaver Realty Group`}
+  description={post.data.description}
+>
+  <article class="container" style="max-width: 800px; padding: 4rem 1.5rem;">
+    <header style="margin-bottom: 3rem; text-align: center;">
+      <p style="color: #666; margin-bottom: 0.75rem;">
+        {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+      </p>
+      <h1 style="font-size: 2.6rem; line-height: 1.2; margin-bottom: 1rem;">
+        {post.data.title}
+      </h1>
+      <p style="font-size: 1.2rem; color: #555;">{post.data.description}</p>
+    </header>
+
+    <div class="blog-content">
+      <Content />
+    </div>
+
+    <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #e5e5e5; text-align: center;">
+      <a href="/evaluation" class="btn btn-dark">Get a Free Home Valuation</a>
+      <p style="margin-top: 1.5rem;">
+        <a href="/blog">← Back to Blog</a>
+      </p>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .blog-content {
+    font-size: 1.15rem;
+    line-height: 1.75;
+    color: #333;
+  }
+
+  .blog-content :global(h2) {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+  }
+
+  .blog-content :global(p) {
+    margin-bottom: 1.4rem;
+  }
+
+  .blog-content :global(a) {
+    color: #111;
+    text-decoration: underline;
+  }
+
+  /* This is the important part – forces images to size correctly */
+  .blog-content :global(img) {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px;
+    margin: 1.75rem auto !important;
+    display: block !important;
+  }
+</style>
