@@ -2,6 +2,10 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
 <BaseLayout 
   title="Shaver Realty Group | Listing Agent in Grapevine & Flower Mound TX"
   description="Looking for a trusted listing agent in Grapevine or Flower Mound? Shaver Realty Group helps homeowners sell their house with transparent pricing starting at 2%, professional marketing, and personal service."
@@ -11,16 +15,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       
-      <h1>Shaver Realty Group</h1>
+      <h1>Your Grapevine Listing Specialist</h1>
       
-      <h2 class="hero-sub">Your Grapevine Listing Agent</h2>
+      <h2 class="hero-sub">Transparent Listing Plans Starting at 2%</h2>
       
       <p class="subtitle">
         We help homeowners sell their house in 
         Grapevine and the nearby communities of Colleyville, Southlake, and Flower Mound.<br /><br />
         Professional marketing, clear communication, and expert negotiation — with transparent pricing starting at 2%.
       </p>
-      We help homeowners sell their homes in <a href="/grapevine">Grapevine</a>, <a href="/flower-mound">Flower Mound</a>, <a href="/colleyville">Colleyville</a>, and <a href="/southlake">Southlake</a>.
+
+      <p class="subtitle" style="margin-top: -1.5rem; margin-bottom: 2.5rem;">
+        We help homeowners sell their homes in 
+        <a href="/grapevine">Grapevine</a>, 
+        <a href="/flower-mound">Flower Mound</a>, 
+        <a href="/colleyville">Colleyville</a>, and 
+        <a href="/southlake">Southlake</a>.
+      </p>
 
       <div class="hero-buttons">
         <a href="/evaluation" class="btn btn-primary">Get Your Free Home Valuation</a>
@@ -99,7 +110,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </div>
   </section>
 
-  <!-- Cash Offers Section -->
+  <!-- Areas We Serve (correct location) -->
+  <section class="areas-section">
+    <div class="container">
+      <h2>Areas We Serve</h2>
+      <p class="intro-text">
+        I specialize in helping homeowners sell in these North Texas communities:
+      </p>
+      <div class="areas-grid">
+        <a href="/grapevine" class="area-card">Grapevine</a>
+        <a href="/flower-mound" class="area-card">Flower Mound</a>
+        <a href="/colleyville" class="area-card">Colleyville</a>
+        <a href="/southlake" class="area-card">Southlake</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cash Offers Section (Final CTA) -->
   <section class="cash-section">
     <div class="container">
       <h2>Need to Sell Your Home Fast?</h2>
@@ -115,7 +142,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           <li>More certainty with fewer contingencies</li>
         </ul>
       </div>
-      <a href="/evaluation" class="btn btn-dark">Request a Cash Offer</a>
+      <a href="/cash-offer" class="btn btn-dark">Request a Cash Offer</a>
     </div>
   </section>
 </BaseLayout>

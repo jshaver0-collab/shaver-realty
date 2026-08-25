@@ -124,6 +124,36 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p class="phone">Or call/text directly: <strong>(214) 717-2888</strong><br />Shaver Realty Group</p>
     </div>
   </section>
+  <script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I get a cash offer on my Grapevine home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. I can help you explore competitive cash offers through trusted partners while still giving you the option of a traditional full-service listing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I have to choose cash or listing right away?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We can look at both options side-by-side so you can decide what fits your timeline and goals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there any obligation when I request information?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "None. You’ll get clear numbers and honest guidance with zero pressure."
+      }
+    }
+  ]
+})} />
 </BaseLayout>
 
 <style>

@@ -1,7 +1,7 @@
 ---
 const { 
-  title = "Shaver Realty Group | Sell Your House in Grapevine & DFW",
-  description = "Looking to sell your house in Grapevine, Colleyville, Southlake or Flower Mound? Shaver Realty Group offers transparent full-service listing plans starting at 2% with professional marketing and personal attention."
+  title = "Shaver Realty Group | Listing Agent in Grapevine & Flower Mound TX",
+  description = "Looking to sell your house in Grapevine, Flower Mound, Colleyville or Southlake? Shaver Realty Group offers transparent full-service listing plans starting at 2% with professional marketing and personal attention."
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, "https://shaverrealtygroup.com");
@@ -15,7 +15,7 @@ const schema = {
   "url": "https://shaverrealtygroup.com/",
   "telephone": "+1-214-717-2888",
   "email": "john@shaverrealtygroup.com",
-  "description": "Shaver Realty Group helps homeowners sell their homes in Grapevine, Colleyville, Southlake and Flower Mound with transparent pricing, professional marketing, and personal attention.",
+  "description": "Shaver Realty Group helps homeowners sell their homes in Grapevine, Flower Mound, Colleyville and Southlake with transparent pricing starting at 2%, professional marketing, and personal attention.",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Grapevine",
@@ -30,20 +30,15 @@ const schema = {
   },
   "areaServed": [
     { "@type": "City", "name": "Grapevine" },
+    { "@type": "City", "name": "Flower Mound" },
     { "@type": "City", "name": "Colleyville" },
-    { "@type": "City", "name": "Southlake" },
-    { "@type": "City", "name": "Flower Mound" }
+    { "@type": "City", "name": "Southlake" }
   ],
-  "memberOf": {
-    "@type": "Organization",
-    "name": "Regal Realtors"
-  },
+  "priceRange": "$$",
   "sameAs": [
-    "https://www.google.com/maps?cid=15250836485861086569",
     "https://www.facebook.com/profile.php?id=61559560264010",
     "https://www.instagram.com/jshaver0/",
     "https://www.linkedin.com/in/shaverjohn/",
-    "https://x.com/Shavergroup",
     "https://www.zillow.com/profile/ShaverRealtyGroup"
   ]
 };
@@ -183,11 +178,14 @@ const schema = {
   <a href="/grapevine">Grapevine</a>&nbsp;•&nbsp;
   <a href="/flower-mound">Flower Mound</a>&nbsp;•&nbsp;
   <a href="/colleyville">Colleyville</a>&nbsp;•&nbsp;
-  <a href="/southlake">Southlake</a>&nbsp;
-  &amp; surrounding DFW communities
+  <a href="/southlake">Southlake</a>
+  &nbsp;&amp; surrounding DFW communities
   <br />
   <a href="/sell-your-home">Sell Your Home</a>&nbsp;·&nbsp;
-  <a href="/evaluation">Free Home Evaluation</a>
+  <a href="/evaluation">Free Home Evaluation</a>&nbsp;·&nbsp;
+  <a href="/cash-offer">Cash Offer</a>&nbsp;·&nbsp;
+  <a href="/pricing">Listing Plans</a>&nbsp;·&nbsp;
+  <a href="/blog">Blog</a>
 </p>
       </div>
     </footer>
@@ -422,5 +420,54 @@ a:visited {
       left: 0;
       transform: none;
     }
+  }.areas-section {
+  padding: 4.5rem 0;
+  text-align: center;
+  background: #f8f8f8;
+  margin-bottom: 4rem;  
+}
+
+.areas-section h2 {
+  font-size: 2.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.areas-section .intro-text {
+  font-size: 1.15rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.area-card {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 1.4rem 1rem;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #111;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.area-card:hover {
+  border-color: #111;
+  box-shadow: 0 8px 20px -8px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .areas-grid {
+    grid-template-columns: 1fr 1fr;
   }
+}
 </style>
