@@ -6,11 +6,11 @@ pubDate: 2026-08-30
 
 I walked Lake Pointe in Grapevine today and photographed the entrance. If you have seen “Lake Point” on a map or listing, this is the same pocket. The neighborhood name is Lake Pointe.
 
-![Lake Pointe Grapevine neighborhood entrance](/blog/lake-pointe-entrance-1.jpg)
+![Lake Pointe Grapevine neighborhood entrance](/lake-pointe-entrance-1.jpg)
 
 It sits near Dove Road and Dove Loop, across from city park land, with trail connections toward Oak Grove Park and an easy bike ride toward Lake Grapevine and downtown. It is a short, contained neighborhood — roughly 60-plus homes built in the mid-2010s — not a sprawling 1990s subdivision.
 
-![Lake Pointe Grapevine entrance sign](/blog/lake-pointe-entrance-2.jpg)
+![Lake Pointe Grapevine entrance sign](/lake-pointe-entrance-2.jpg)
 
 ## What stands out in person
 
