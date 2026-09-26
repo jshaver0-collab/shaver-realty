@@ -1,7 +1,7 @@
 ---
 title: "Neighborhood Spotlight: Western Oaks in Grapevine, TX"
 description: "A local look at Western Oaks in Grapevine — established 1980s–1990s homes, GCISD schools, and a factual snapshot for buyers and sellers."
-pubDate: 2026-09-26
+pubDate: "2026-09-26"
 heroImage: "/blog/western-oaks-grapevine.jpg"
 tags:
   - Grapevine
