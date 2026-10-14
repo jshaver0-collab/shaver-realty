@@ -2,7 +2,7 @@
 title: "Neighborhood Spotlight: Belfort Estates in Grapevine, TX"
 description: "A local look at Belfort Estates in Grapevine — late-1990s homes off Heritage Avenue, GCISD schools, and a factual snapshot for buyers and sellers."
 pubDate: 2026-10-13
-heroImage: "/belfort-estates-grapevine.jpg"
+heroImage: "/blog/belfort-estates-grapevine.jpg"
 tags:
   - Grapevine
   - Neighborhood Spotlight
@@ -11,7 +11,7 @@ tags:
 draft: false
 ---
 
-![Belfort Estates entrance in Grapevine, Texas](/belfort-estates-grapevine.jpg)
+![Belfort Estates entrance in Grapevine, Texas](/blog/belfort-estates-grapevine.jpg)
 
 If you’ve been looking at homes for sale in Grapevine, TX, Belfort Estates is a compact, late-1990s pocket that sits just off Heritage Avenue. It’s the kind of neighborhood that feels established without being overly large — quieter streets, bigger floor plans, and a location that keeps everyday Grapevine amenities close.
 
