@@ -2,7 +2,7 @@
 title: "Neighborhood Spotlight: Stone Bridge Oaks in Grapevine, TX"
 description: "A practical look at Stone Bridge Oaks in Grapevine — low-maintenance townhomes and patio homes off Glade Road, GCISD schools, amenities, and what buyers and sellers should know."
 pubDate: 2026-10-22
-heroImage: "/stone-bridge-oaks-grapevine.jpg"
+heroImage: "/stonebridge-oaks-grapevine.jpg"
 tags:
   - Grapevine
   - Neighborhood Spotlight
@@ -11,7 +11,7 @@ tags:
 draft: false
 ---
 
-![Stone Bridge Oaks entrance in Grapevine, Texas](/stone-bridge-oaks-grapevine.jpg)
+![Stone Bridge Oaks entrance in Grapevine, Texas](/stonebridge-oaks-grapevine.jpg)
 
 If you’ve been searching **homes for sale in Grapevine, TX**, Stone Bridge Oaks is the low-maintenance option that sits tucked off Glade Road between Highway 360 and Highway 121. It mixes townhomes and detached patio/villa homes, with an HOA that handles exterior and landscape maintenance.
 
