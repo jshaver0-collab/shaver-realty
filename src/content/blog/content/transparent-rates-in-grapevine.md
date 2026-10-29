@@ -7,19 +7,19 @@ tags: ["Grapevine", "Transparent Pricing", "Listing Plans", "Selling Tips"]
 
 In today’s market, home prices across Grapevine, the south side of Flower Mound, Colleyville, and Southlake have climbed substantially.
 
-When prices rise, traditional percentage-based commissions automatically increase too — even though the actual work of marketing and selling a home hasn’t changed.
+When prices rise, traditional percentage-based listings automatically increase too — even though the actual work of marketing and selling a home hasn’t changed.
 
-At Shaver Realty Group, we believe sellers deserve to keep more of their hard-earned equity. That’s why we’ve structured our commission options with transparent, lower rates. This isn’t about offering a “cheaper” or stripped-down service. It’s about smart business decisions that let us pass real savings to our clients while maintaining (and even enhancing) the professional experience you expect.
+At Shaver Realty Group, we believe sellers deserve to keep more of their hard-earned equity. That’s why we’ve structured our listing options with transparent, lower rates. This isn’t about offering a “cheaper” or stripped-down service. It’s about smart business decisions that let us pass real savings to our clients while maintaining (and even enhancing) the professional experience you expect.
 
 ## How We’re Able to Offer Lower Rates
 
-We’ve structured our business with a reduced operating cost model. This approach significantly lowers our overhead compared to traditional brokerages with high fixed costs. By keeping our operating expenses lean, we can offer competitive commission rates — starting as low as 1.5% — without sacrificing the quality of service our clients rely on.
+We’ve structured our business with a reduced operating cost model. This approach significantly lowers our overhead compared to traditional brokerages with high fixed costs. By keeping our operating expenses lean, we can offer competitive listing rates — starting as low as 1.5% — without sacrificing the quality of service our clients rely on.
 
 In a market where rising home values have increased costs across the board, this model lets us stay efficient and transparent.
 
 ## What Hasn’t Changed (And Never Will)
 
-Lower commissions do not mean lower service. Every client still receives the full professional experience, including:
+Lower listings do not mean lower service. Every client still receives the full professional experience, including:
 
 - Professional photography and strong visual marketing
 - Full MLS listing with syndication to major sites
@@ -32,7 +32,7 @@ We’re still the same local agent deeply rooted in Grapevine and the surroundin
 
 ## Why This Matters for Local Sellers
 
-When home prices are higher, even a small reduction in commission percentage can mean thousands of dollars back in your pocket. Our goal is simple: help you sell your home effectively while you keep more of the proceeds.
+When home prices are higher, even a small reduction in listing percentage can mean thousands of dollars back in your pocket. Our goal is simple: help you sell your home effectively while you keep more of the proceeds.
 
 We’re not a “discount” service that cuts corners to compete on price. We’re a full-service local listing specialist that has found a smarter, more efficient way to operate in today’s market. This allows us to deliver strong value without compromising on the professionalism, marketing, and personal attention our clients deserve.
 
