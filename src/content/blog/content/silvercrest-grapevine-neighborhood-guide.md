@@ -46,7 +46,7 @@ If your goal is to sell efficiently without leaving money on the table, the proc
 4. Market it with strong photos and clear messaging.
 5. Stay responsive during the first two weeks of showings.
 
-I handle all of that personally as a solo agent. My listing service starts at 2% and includes professional photography, full marketing, open houses, and direct communication from listing to closing — no hand-offs to a team.
+I handle all of that personally as a solo agent. My listing service starts at 1.5% and includes professional photography, full marketing, open houses, and direct communication from listing to closing — no hand-offs to a team.
 
 ## Thinking About Selling Your SilverCrest Home?
 

@@ -45,7 +45,7 @@ That's the kind of positioning I focus on with every Hidden Lakes listing — pr
 
 Whether you're comparing Hidden Lakes to Lakeside, wondering how to sell your home in Grapevine, or just curious what your greenbelt-adjacent property could sell for in today's market, I'd be glad to walk your specific home and give you an honest, no-obligation read on where things stand.
 
-As a solo, full-service listing agent in Grapevine working at a fair 2% rate, you get direct access to me throughout the process — not a rotating team — along with professional photography, complete marketing, and open houses included.
+As a solo, full-service listing agent in Grapevine working at a fair 1.5% rate, you get direct access to me throughout the process — not a rotating team — along with professional photography, complete marketing, and open houses included.
 
 [Get Your Free Home Valuation](/evaluation)
 

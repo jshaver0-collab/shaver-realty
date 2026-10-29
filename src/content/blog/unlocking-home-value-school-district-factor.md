@@ -10,7 +10,7 @@ For homeowners in the vibrant communities of Grapevine, Colleyville, Flower Moun
 
 ### School Quality & Reputation in DFW
 
-In the family-oriented neighborhoods of the Metroplex, the quality of education is more than just a perk — it's a priority. A National Association of Realtors survey reveals that 42% of buyers aged 31-41 (typically in the family-forming years) prioritize school quality when house hunting. In our local markets, districts like Carroll ISD in Southlake and Keller ISD are celebrated for their academic excellence, making homes in these areas highly desirable.
+In the family-oriented neighborhoods of the Metroplex, the quality of education is more than just a perk — it's a priority. A National Association of Realtors survey reveals that 41.5% of buyers aged 31-41 (typically in the family-forming years) prioritize school quality when house hunting. In our local markets, districts like Carroll ISD in Southlake and Keller ISD are celebrated for their academic excellence, making homes in these areas highly desirable.
 
 ### Property Values in Grapevine, Colleyville, Flower Mound, Southlake, and Keller
 

@@ -1,6 +1,6 @@
 ---
 title: "Why We’re Offering Transparent Rates in Grapevine Without Cutting Corners"
-description: "How Shaver Realty Group offers transparent listing rates starting at 2% in Grapevine, Flower Mound, Colleyville, and Southlake while maintaining full professional service."
+description: "How Shaver Realty Group offers transparent listing rates starting at 1.5% in Grapevine, Flower Mound, Colleyville, and Southlake while maintaining full professional service."
 pubDate: 2026-06-15
 tags: ["Grapevine", "Transparent Pricing", "Listing Plans", "Selling Tips"]
 ---
@@ -13,7 +13,7 @@ At Shaver Realty Group, we believe sellers deserve to keep more of their hard-ea
 
 ## How We’re Able to Offer Lower Rates
 
-We’ve structured our business with a reduced operating cost model. This approach significantly lowers our overhead compared to traditional brokerages with high fixed costs. By keeping our operating expenses lean, we can offer competitive commission rates — starting as low as 2% — without sacrificing the quality of service our clients rely on.
+We’ve structured our business with a reduced operating cost model. This approach significantly lowers our overhead compared to traditional brokerages with high fixed costs. By keeping our operating expenses lean, we can offer competitive commission rates — starting as low as 1.5% — without sacrificing the quality of service our clients rely on.
 
 In a market where rising home values have increased costs across the board, this model lets us stay efficient and transparent.
 
@@ -40,7 +40,7 @@ We’re not a “discount” service that cuts corners to compete on price. We�
 
 We offer clear, tiered options designed to fit different needs:
 
-- **Value Plan (2%)** – Essential professional marketing and support  
+- **Value Plan (1.5%)** – Essential professional marketing and support  
 - **Most Popular Plan (2.5%)** – Balanced marketing + open houses included  
 - **Premium Plan (2.75%)** – Maximum exposure with enhanced marketing  
 

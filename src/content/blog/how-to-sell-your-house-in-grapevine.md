@@ -19,7 +19,7 @@ Small improvements and professional presentation make a big difference.
 
 ## 3. Choose the Right Listing Plan
 
-Our transparent listing plans start at 2% and include professional marketing and open houses.
+Our transparent listing plans start at 1.5% and include professional marketing and open houses.
 
 [View Listing Plans](/pricing)
 
