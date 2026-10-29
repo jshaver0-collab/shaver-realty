@@ -3,8 +3,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout 
-  title="Full-Service Listing Plans Starting at 2% | Sell Your House in Grapevine & DFW"
-  description="Transparent full-service listing plans starting at 2% for homeowners who want to sell their house in Grapevine, Flower Mound, Colleyville or Southlake. Professional marketing, MLS exposure, and open houses included."
+  title="Full-Service Listing Plans Starting at 1.5% | Sell Your House in Grapevine & DFW"
+  description="Transparent full-service listing plans starting at 1.5% for homeowners who want to sell their house in Grapevine, Flower Mound, Colleyville or Southlake. Professional marketing, MLS exposure, and personal support included."
 >
   <!-- HERO -->
   <section class="page-hero">
@@ -12,7 +12,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <h1>Full-Service Listing Plans</h1>
       <p class="lead">
         Professional marketing and transparent pricing for homeowners ready to sell.<br />
-        Full MLS exposure + open houses included in every plan.<br />
+        Full MLS exposure and dedicated support in every plan.<br />
         Serving Grapevine • Flower Mound • Colleyville • Southlake
       </p>
       <a href="#tiers" class="btn btn-dark">Choose Your Plan & Get a Free Valuation →</a>
@@ -32,36 +32,33 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
       <div id="tiers" class="tiers-grid">
 
-        <!-- Value Plan -->
+        <!-- Essential Plan -->
         <div class="plan">
-          <h3>Value Plan</h3>
-          <p class="plan-desc">Professional service with essential marketing</p>
-          <div class="price">2% <span>of sale price</span></div>
+          <h3>Essential Plan</h3>
+          <p class="plan-desc">Full representation with core marketing</p>
+          <div class="price">1.5% <span>of sale price</span></div>
           <ul>
-            <li>Professional photos + basic floor plan</li>
+            <li>Professional photography</li>
             <li>Full MLS + syndication to Zillow, Realtor.com, Homes.com + 25,000+ agents</li>
-            <li>Compact digital ad campaign (Meta + Google)</li>
-            <li>Professional video tour with paid promotion</li>
-            <li>BrokerBay showing coordinator</li>
-            <li class="highlight">Agent-hosted open houses included</li>
+            <li>Pricing strategy and market analysis</li>
+            <li>Side-by-side cash offer comparison</li>
             <li>Full negotiation and closing support</li>
+            <li>Direct access to your listing agent</li>
           </ul>
-          <p class="note">*No Matterport or virtual staging included</p>
+          <p class="note">*No paid digital ads or open houses included</p>
         </div>
 
         <!-- Most Popular -->
         <div class="plan popular">
           <div class="badge">MOST POPULAR</div>
-          <h3>Most Popular Plan</h3>
+          <h3>Enhanced Plan</h3>
           <p class="plan-desc">Best balance of marketing and value</p>
-          <div class="price">2.5% <span>of sale price</span></div>
+          <div class="price">2% <span>of sale price</span></div>
           <ul>
-            <li>Professional photos + Matterport 3D tour + floor plan</li>
-            <li>Full MLS + syndication to Zillow, Realtor.com, Homes.com + 25,000+ agents</li>
-            <li>Focused digital ad campaign (Meta + Google)</li>
-            <li>Professional video tour with paid promotion</li>
-            <li>Virtual staging (3 rooms)</li>
-            <li>“Just Listed” postcards + targeted agent outreach</li>
+            <li>Everything in Essential, plus:</li>
+            <li>Professional photos + basic floor plan</li>
+            <li>Compact digital ad campaign (Meta + Google)</li>
+            <li>Professional video tour</li>
             <li>BrokerBay showing coordinator</li>
             <li class="highlight">Agent-hosted open houses included</li>
             <li>Full negotiation and closing support</li>
@@ -72,15 +69,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <div class="plan">
           <h3>Premium Plan</h3>
           <p class="plan-desc">Maximum exposure for competitive markets</p>
-          <div class="price">2.75% <span>of sale price</span></div>
+          <div class="price">2.25% <span>of sale price</span></div>
           <ul>
-            <li>Professional photos + Matterport 3D tour + aerial drone + detailed floor plan</li>
-            <li>Full MLS + syndication to Zillow, Realtor.com, Homes.com + 25,000+ agents</li>
+            <li>Everything in Enhanced, plus:</li>
+            <li>Matterport 3D tour</li>
             <li>Extended digital ad campaign (Meta + Google)</li>
-            <li>Professional video tour with paid promotion</li>
             <li>Virtual staging (3 rooms)</li>
             <li>“Just Listed” postcards + targeted agent outreach</li>
-            <li>BrokerBay showing coordinator</li>
+            <li>Aerial drone photography (when beneficial)</li>
             <li class="highlight">Agent-hosted open houses included</li>
             <li>Full negotiation and closing support</li>
           </ul>
@@ -97,15 +93,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <div class="why-grid">
         <div>
           <strong>Transparent Pricing</strong>
-          <p>Clear tiers with no hidden fees or surprises when you sell your house.</p>
+          <p>Clear tiers starting at 1.5% with no hidden fees or surprises.</p>
         </div>
         <div>
           <strong>Full Professional Marketing</strong>
-          <p>MLS syndication, pro photography, video, ads, and open houses included.</p>
+          <p>MLS syndication, pro photography, and dedicated support on every listing.</p>
         </div>
         <div>
           <strong>Consistent Service</strong>
-          <p>Every plan includes dedicated support from your local listing agent through closing.</p>
+          <p>Every plan includes direct access to your local listing agent through closing.</p>
         </div>
         <div>
           <strong>Local DFW Expertise</strong>
@@ -124,39 +120,41 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p class="phone">Or call/text directly: <strong>(214) 717-2888</strong><br />Shaver Realty Group</p>
     </div>
   </section>
+
   <script type="application/ld+json" set:html={JSON.stringify({
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I get a cash offer on my Grapevine home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. I can help you explore competitive cash offers through trusted partners while still giving you the option of a traditional full-service listing."
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I get a cash offer on my Grapevine home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. I can help you explore competitive cash offers through trusted partners while still giving you the option of a traditional full-service listing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I have to choose cash or listing right away?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. We can look at both options side-by-side so you can decide what fits your timeline and goals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there any obligation when I request information?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "None. You’ll get clear numbers and honest guidance with zero pressure."
+        }
       }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I have to choose cash or listing right away?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. We can look at both options side-by-side so you can decide what fits your timeline and goals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there any obligation when I request information?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "None. You’ll get clear numbers and honest guidance with zero pressure."
-      }
-    }
-  ]
-})} />
+    ]
+  })} />
 </BaseLayout>
 
 <style>
+  /* Keep all existing styles exactly as they were */
   .page-hero {
     background: #f8f8f8;
     color: #111;
