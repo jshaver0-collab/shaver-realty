@@ -4,13 +4,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout 
   title="About John Shaver | Grapevine Listing Agent | Shaver Realty Group"
-  description="Meet John Shaver, a dedicated Grapevine listing agent helping homeowners sell their homes in Grapevine, Flower Mound, Colleyville and Southlake with transparent pricing and personal service."
+  description="Meet John Shaver, a dedicated Grapevine listing agent helping homeowners sell their homes in Grapevine, Flower Mound, Colleyville, and Southlake with transparent pricing and personal service."
 >
   <section class="page-hero">
     <div class="container">
       <h1>About Shaver Realty Group</h1>
       <p class="lead">
-        A different kind of listing experience — clear, personal, and focused on results.
+        A different kind of listing experience — clear, personal, and focused on results in Grapevine and the surrounding communities.
       </p>
     </div>
   </section>
@@ -20,56 +20,53 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <div class="intro">
         <h2>Hi, I’m John Shaver</h2>
         <p>
-          I’m a Grapevine listing agent who helps homeowners in Grapevine, Flower Mound, Colleyville, Southlake and the surrounding areas sell their homes with clarity and confidence.
+          I’m a Grapevine listing agent who helps homeowners in Grapevine, Flower Mound, Colleyville, Southlake, and nearby areas sell their homes with clarity and confidence.
         </p>
         <p>
-          After years in real estate, I built Shaver Realty Group around a simple idea:  
-          sellers deserve transparent pricing, direct communication, and a process that doesn’t feel stressful or confusing.
+          After years in real estate, I built Shaver Realty Group around a simple idea: sellers deserve transparent pricing, direct communication, and a straightforward process that doesn’t feel stressful or confusing.
         </p>
       </div>
 
       <div class="values-grid">
         <div class="value-card">
           <h3>Transparent Pricing</h3>
-          <p>Starting at 1.5% with no hidden fees. You always know exactly what you’re paying for and what you’re getting.</p>
+          <p>One full-service listing fee based on your home’s value. No complicated plans or hidden costs — just clear pricing and professional marketing on every listing.</p>
         </div>
         <div class="value-card">
           <h3>High-Touch Service</h3>
-          <p>You work directly with me — not a rotating team or call center. Clear updates and honest guidance every step of the way.</p>
+          <p>You work directly with me — not a rotating team or call center. Clear updates and honest guidance from the first conversation through closing.</p>
         </div>
         <div class="value-card">
           <h3>Local Focus</h3>
-          <p>Deep knowledge of Grapevine, Flower Mound and the nearby communities. Strategy built for this specific market, not a generic approach.</p>
+          <p>Deep knowledge of the Grapevine, Flower Mound, Colleyville, and Southlake markets. Strategy built for these specific communities, not a generic approach.</p>
         </div>
       </div>
 
       <div class="approach">
         <h2>My Approach</h2>
         <p>
-          Selling a home is one of the biggest financial decisions most people make.  
-          My job is to make that process as straightforward and low-stress as possible while still delivering strong results.
+          Selling a home is one of the biggest financial decisions most people make. My job is to make that process as straightforward and low-stress as possible while still delivering strong results.
         </p>
         <p>
-          That means honest pricing advice, professional marketing, careful preparation, and clear communication from the first conversation through closing — whether you’re looking to sell your house in Grapevine or one of the surrounding communities.
+          That means honest pricing advice, professional photography and marketing, careful preparation, and clear communication every step of the way — whether you’re looking to sell your house in Grapevine or one of the surrounding communities.
         </p>
       </div>
-<!-- Areas We Serve -->
-<section class="areas-section">
-  <div class="container">
-    <h2>Areas We Serve</h2>
-    <p class="intro-text">
-      I specialize in helping homeowners sell in these North Texas communities:
-    </p>
-    <div class="areas-grid">
-      <a href="/grapevine" class="area-card">Grapevine</a>
-      <a href="/flower-mound" class="area-card">Flower Mound</a>
-      <a href="/colleyville" class="area-card">Colleyville</a>
-      <a href="/southlake" class="area-card">Southlake</a>
-    </div>
-  </div>
 
-</section>
-
+      <!-- Areas We Serve -->
+      <section class="areas-section">
+        <div class="container">
+          <h2>Areas We Serve</h2>
+          <p class="intro-text">
+            I specialize in helping homeowners sell in these North Texas communities:
+          </p>
+          <div class="areas-grid">
+            <a href="/grapevine" class="area-card">Grapevine</a>
+            <a href="/flower-mound" class="area-card">Flower Mound</a>
+            <a href="/colleyville" class="area-card">Colleyville</a>
+            <a href="/southlake" class="area-card">Southlake</a>
+          </div>
+        </div>
+      </section>
 
       <div class="cta-box">
         <h3>Ready to talk about selling your home?</h3>
@@ -100,7 +97,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   .lead {
     font-size: 1.25rem;
     color: #555;
-    max-width: 600px;
+    max-width: 640px;
     margin: 0 auto;
   }
 
@@ -168,6 +165,47 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     font-size: 1.08rem;
     line-height: 1.7;
     margin-bottom: 1.1rem;
+  }
+
+  .areas-section {
+    margin-bottom: 4.5rem;
+    text-align: center;
+  }
+
+  .areas-section h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+
+  .intro-text {
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .areas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .area-card {
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+
+  .area-card:hover {
+    background: #111;
+    color: white;
+    border-color: #111;
   }
 
   .cta-box {
