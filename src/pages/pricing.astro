@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout 
-  title="Transparent Listing Fees Starting at 1.5% | Sell Your House in Grapevine & DFW"
+  title="Transparent Listing Fees by Home Value | Shaver Realty Group"
   description="Clear, full-service listing fees based on your home’s value. Professional photography, MLS exposure, negotiation, and dedicated support for every listing in Grapevine, Flower Mound, Colleyville, and Southlake."
 >
   <!-- HERO -->
@@ -12,11 +12,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <h1>Transparent Listing Fees</h1>
       <p class="lead">
         One full-service listing for every home.<br />
-        The fee simply adjusts with the value of the property so it stays reasonable as home prices have risen.<br />
+        The fee adjusts with the value of the property so it stays reasonable as home prices have risen.<br />
         Serving Grapevine • Flower Mound • Colleyville • Southlake
       </p>
       <a href="/evaluation" class="btn btn-dark">Get a Free Valuation & See Your Exact Fee →</a>
-      <p class="hero-note">Shaver Realty Group • Dedicated Listing Agent</p>
+      <p class="hero-note">Shaver Realty Group</p>
     </div>
   </section>
 
@@ -51,7 +51,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
       </div>
 
-      <p class="center-note">Exact fee confirmed after a free, no-obligation valuation. Calculated on final sale price.</p>
+      <p class="center-note">
+        Full-service listing on every home. No reduced service at any price.<br />
+        Exact fee confirmed after a free, no-obligation valuation. Calculated on final sale price.
+      </p>
     </div>
   </section>
 
@@ -74,7 +77,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           <li>Ongoing communication and updates</li>
           <li>Local market knowledge and positioning</li>
           <li>No hidden fees or surprise add-ons</li>
-          <li>Personal attention from a solo listing specialist</li>
+          <li>Personal attention from Shaver Realty Group</li>
         </ul>
       </div>
     </div>
@@ -121,26 +124,34 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Can I get a cash offer on my Grapevine home?",
+        "name": "Why does the listing fee change with home value?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. I can help you review competitive cash offers alongside a traditional listing so you can compare both options."
+          "text": "Home prices have risen significantly. The fee adjusts with the value of the property so it stays reasonable for sellers while still covering full-service marketing, negotiation, and support."
         }
       },
       {
         "@type": "Question",
-        "name": "Do I have to decide between a cash offer and listing right away?",
+        "name": "Is the service different at different price points?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "No. We look at both side-by-side during the valuation so you can choose what fits your timeline and goals."
+          "text": "No. Every home receives the same full-service listing: professional photography, full MLS exposure, pricing strategy, negotiation support, and ongoing communication."
         }
       },
       {
         "@type": "Question",
-        "name": "Is there any obligation when I request a valuation?",
+        "name": "When is the exact fee confirmed?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "None. You’ll receive clear numbers and straightforward information with no pressure."
+          "text": "After a free, no-obligation valuation. The fee is calculated on the final sale price and falls into one of the published ranges."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are there any hidden fees or reduced service options?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. There are no hidden fees or surprise add-ons. Service does not change based on the fee percentage."
         }
       }
     ]
@@ -261,6 +272,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     margin-top: 2rem;
     color: #666;
     font-size: 0.95rem;
+    line-height: 1.6;
   }
 
   .included-section {
