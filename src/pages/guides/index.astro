@@ -1,0 +1,100 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout 
+  title="Seller & Buyer Guides | Shaver Realty Group"
+  description="Clear, practical guides on listing fees, cash offers, preparing your home, and other topics for homeowners in Grapevine, Flower Mound, Colleyville, and Southlake."
+>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Guides</h1>
+      <p class="lead">
+        Practical information for homeowners in Grapevine and the surrounding communities — focused on clear communication and realistic expectations.
+      </p>
+    </div>
+  </section>
+
+  <section class="guides-section">
+    <div class="container">
+      <div class="guides-grid">
+
+        <a href="/guides/truth-about-listing-fees" class="guide-card">
+          <h2>The Truth About Listing Fees</h2>
+          <p>
+            What listing fees actually cover, how buyer compensation works now, and why transparent pricing can be a practical option when selling your home.
+          </p>
+          <span class="read-more">Read the guide →</span>
+        </a>
+
+        <!-- Future guides will go here -->
+
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    padding: 5rem 0 3rem;
+    text-align: center;
+  }
+
+  .page-hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .guides-section {
+    padding: 2rem 0 5rem;
+  }
+
+  .guides-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.75rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .guide-card {
+    display: block;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 2rem 1.75rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s;
+  }
+
+  .guide-card:hover {
+    border-color: #111;
+    transform: translateY(-2px);
+  }
+
+  .guide-card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    color: #111;
+  }
+
+  .guide-card p {
+    color: #555;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+  }
+
+  .read-more {
+    font-weight: 600;
+    color: #111;
+  }
+</style>
