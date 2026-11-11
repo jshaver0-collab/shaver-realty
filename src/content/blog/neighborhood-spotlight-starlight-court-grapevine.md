@@ -1,7 +1,7 @@
 ---
 title: "Neighborhood Spotlight: Starlight Court in Grapevine, TX"
 description: "Homes for sale in Grapevine, TX include Starlight Court, a small residential street community zoned to Grapevine-Colleyville ISD."
-pubDate: 2026-11-10
+pubDate: 2026-11-14
 heroImage: "/starlight-court-grapevine.jpg"
 tags: ["Grapevine", "Neighborhood Spotlight", "GCISD", "Homes for Sale"]
 ---
