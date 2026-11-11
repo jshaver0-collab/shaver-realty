@@ -1,7 +1,7 @@
 ---
 title: "Neighborhood Spotlight: Glade Crossing in Grapevine, TX"
 description: "Homes for sale in Grapevine, TX include Glade Crossing, an established neighborhood of single-family homes zoned to Grapevine-Colleyville ISD with convenient access to downtown and nearby parks."
-pubDate: 2026-11-10
+pubDate: 2026-10-28
 heroImage: "/glade-crossing-grapevine.jpg"
 tags: ["Grapevine", "Neighborhood Spotlight", "GCISD", "Homes for Sale"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Neighborhood Spotlight: Meritage in Grapevine, TX"
 description: "Homes for sale in Grapevine, TX include Meritage, a quiet community of larger homes in Grapevine-Colleyville ISD with convenient access to Glade Parks and major highways."
-pubDate: 2026-11-10
+pubDate: 2026-11-13
 heroImage: "/meritage-grapevine.jpg"
 tags: ["Grapevine", "Neighborhood Spotlight", "GCISD", "Homes for Sale"]
 ---
