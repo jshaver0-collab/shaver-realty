@@ -1,7 +1,7 @@
 ---
 title: "Neighborhood Spotlight: Glade Woods in Grapevine, TX"
 description: "Homes for sale in Grapevine, TX include Glade Woods, a residential neighborhood near Glade Road zoned to Grapevine-Colleyville ISD."
-pubDate: 2026-11-10
+pubDate: 2026-11-09
 heroImage: "/glade-woods-grapevine.jpg"
 tags: ["Grapevine", "Neighborhood Spotlight", "GCISD", "Homes for Sale"]
 ---
