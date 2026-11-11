@@ -1,7 +1,7 @@
 ---
 title: "Neighborhood Spotlight: Ashbrook Estates near Grapevine, TX"
 description: "Homes for sale near Grapevine, TX include Ashbrook Estates in Euless, a gated community zoned to Grapevine-Colleyville ISD with convenient access to major highways."
-pubDate: 2026-11-10
+pubDate: 2026-11-16
 heroImage: "/ashbrook-estates-grapevine.jpg"
 tags: ["Grapevine", "Neighborhood Spotlight", "GCISD", "Homes for Sale"]
 ---
